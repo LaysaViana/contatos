@@ -1,0 +1,26 @@
+.container {
+  background-color: #4d77ff;
+  width: 100wh;
+  height: 100vh;
+  padding: 24px;
+}
+span {
+  color: #f2fa5a;
+  font-size: 20px;
+}
+
+button {
+  background-color: #f2fa5a;
+  color: rgb(118, 118, 118);
+  border: none;
+  padding: 8px;
+  border-radius: 48px;
+  width: 150px;
+  font-size: 15px;
+}
+
+.header {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
