@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./Home.module.css";
-
+import Card from "./../Card";
 const Home = () => {
   return (
     <div className={styles.container}>
@@ -8,11 +8,13 @@ const Home = () => {
         <span>
           <strong>CONTACTS</strong>
         </span>
-        <button>
+        <button className={styles.botao}>
           <strong>Search</strong>
         </button>
       </div>
-      <div>cards</div>
+      <div>
+        <Card />
+      </div>
     </div>
   );
 };

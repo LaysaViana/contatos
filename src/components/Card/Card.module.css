@@ -1,0 +1,35 @@
+.container {
+  background-color: #56bbf1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100px;
+  border-radius: 7px;
+}
+
+.botao {
+  background-color: #4d77ff;
+  border-radius: 4px;
+  border: none;
+  color: #f2fa5a;
+  padding: 8px;
+  width: 100px;
+  font-size: 15px;
+  margin: 5px;
+}
+
+.acoes {
+  margin: 10px;
+}
+
+.info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+img {
+  border-radius: 60px;
+}
