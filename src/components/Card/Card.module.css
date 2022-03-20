@@ -5,15 +5,21 @@
   justify-content: space-between;
   height: 100px;
   border-radius: 7px;
+  margin: 15px;
+
+}
+
+.container:hover{
+  cursor: pointer;
+  background-color: #77caf7;
 }
 
 .botao {
-  background-color: #4d77ff;
+  background-color: #77caf7;
   border-radius: 4px;
-  border: none;
+  border: 1px solid #f2fa5a;
   color: #f2fa5a;
   padding: 8px;
-  width: 100px;
   font-size: 15px;
   margin: 5px;
 }
@@ -32,4 +38,20 @@
 
 img {
   border-radius: 60px;
+}
+
+ ul, li{
+  list-style: none;
+  padding: 0px;
+  margin-left: 10px;
+  text-align: start;
+}
+
+
+.nome{
+  color: #f2fa5a;
+}
+
+.cargo{
+  color: #f4bbbb;
 }

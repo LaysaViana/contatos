@@ -1,17 +1,19 @@
 import React from "react";
 import styles from "./Card.module.css";
-const Card = () => {
+
+const Card = ({ nome, cargo, imagem }) => {
+
   return (
     <div className={styles.container}>
       <div className={styles.info}>
         <img
-          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSCrpMYqDJuT7PF7qIyJ-e2scI7hJgwGoY_g&usqp=CAU"
+          src={imagem}
           width={50}
         />
-        <div>
-          <p>nome</p>
-          <p>cargo</p>
-        </div>
+        <ul>
+          <li className={styles.nome}>{nome}</li>
+          <li className={styles.cargo}>{cargo}</li>
+        </ul>
       </div>
       <div className={styles.acoes}>
         <button className={styles.botao}>call</button>
