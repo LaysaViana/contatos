@@ -9,7 +9,7 @@ span {
   font-size: 20px;
 }
 
-button {
+.botao {
   background-color: #f2fa5a;
   color: rgb(118, 118, 118);
   border: none;
@@ -23,4 +23,11 @@ button {
   padding: 10px;
   display: flex;
   justify-content: space-between;
+}
+
+.comentario {
+  margin: 15px;
+  display: flex;
+  justify-content:flex-start;
+  font-size: 15px;
 }
